@@ -3,7 +3,9 @@ from .models import Tarea
 from .form import TareaForm
 
 # Create your views here.
-
+def index(request):
+    return render(request, 'index.html')
+    
 def crear(request):
     if request.method == 'POST':
         form = TareaForm(request.POST)
@@ -16,3 +18,4 @@ def crear(request):
 def listar(request):
     tareas = Tarea.objects.all()
     return render(request,'listar.html',{'tareas':tareas})
+
