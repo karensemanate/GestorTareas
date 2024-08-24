@@ -3,8 +3,7 @@ Descripción
 La aplicación "Tareas" es una herramienta para gestionar tareas y actividades. Permite a los usuarios crear, listar y ver detalles de tareas.
 
 Estructura del proyecto
-
-tareas/: Carpeta principal de la aplicación
+gestortareas/: Carpeta principal de la aplicación
 models.py: Define los modelos de datos para las tareas
 views.py: Contiene las vistas para crear, listar y ver detalles de tareas
 urls.py: Define las rutas para acceder a las vistas
