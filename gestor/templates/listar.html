@@ -15,7 +15,8 @@
             <li class="list-group-item">
                 <h5>{{ tarea.titulo }}</h5>
                 <p>{{ tarea.descripcion }}</p>
-                <span class="badge bg-{{ tarea.estado}}">{{ tarea.estado }}</span>
+                {{tarea.estado}}
+
             </li>
             {% endfor %}
         </ul>
